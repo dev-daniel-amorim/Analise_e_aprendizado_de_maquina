@@ -8,6 +8,8 @@
 * [Desenvolvedor](#desenvolvedor)
 * [Objetivo](#Objetivo)
 * [Machine learning](#Machine-learning)
+* [Métricas estatísticas utilizadas](#Métricas-estatísticas-utilizadas)
+* [Modelos de machine learning utilizados](#Modelos-de-machine-learning-utilizados)
 * [7 passos do machine learning](#7-passos-do-machine-learning)
 * [Inspirações e créditos](#Inspirações-e-créditos)
 
@@ -51,6 +53,17 @@ Inicialmente temos que entender que o computador aprende de 3 formas:
     
     - 3º aprendizado por reforço: Vamos ensinando ao computador por meio de reforço positivo ou negativo, exemplo, recomendação de vídeo do youtube, o youtube mostra vídeos, se eu não assistir é pq não gosta, se assistir é pq eu gosta, assim o youtube vai aprendendo por reforço o que o usuário mais gosta.
 
+# Métricas estatísticas utilizadas
+
+    - Quartis 
+    - R² (Erro quadratico médio)
+    - RSME (raiz do erro quadrática média)
+    
+# Modelos de machine learning utilizados
+
+    - Linear regression
+    - Randon forest regressor
+    - Extra trees
 
 # 7 passos do machine learning
 
