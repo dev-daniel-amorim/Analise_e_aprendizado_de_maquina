@@ -116,9 +116,10 @@ Este projeto foi feito com base no projeto americano de Allan Bruno do kaggle no
 
     - https://www.kaggle.com/allanbruno/helping-regular-people-price-listings-on-airbnb
     
-Todo projeto foi orientado pela Hashtag treinamentos, no qual eu tive a honra de participar. 
+Todo projeto foi refeito por DANIEL S. AMORIM, orientado pela Hashtag treinamentos, no qual eu tive a honra de participar e obter certificado Phyton.
 
-Todo projetoamericano foi modificado para a realidade no Brasil, com valores descritos em reais para localidade no Rio de Janeiro e explicações em Português/BR.
+O projeto americano serviu como inspiração, sendo modificado para a realidade no Brasil, 
+com valores descritos em reais para localidade (latitude e longitude) no Rio de Janeiro e explicações em Português/BR.
 
 - As bases de dados são os preços dos imóveis obtidos e suas respectivas características em cada mês.
 - Os preços são dados em reais (R$)
