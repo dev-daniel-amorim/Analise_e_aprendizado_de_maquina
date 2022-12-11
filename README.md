@@ -97,10 +97,11 @@ Inicialmente temos que entender que o computador aprende de 3 formas:
     
 # Inspirações e créditos
 
-As bases de dados foram retiradas do site kaggle: https://www.kaggle.com/allanbruno/airbnb-rio-de-janeiro
+As bases de dados foram retiradas do site kaggle: 
+    https://www.kaggle.com/allanbruno/airbnb-rio-de-janeiro
 
 Este projeto foi feito com base no projeto americano de Allan Bruno do kaggle no Notebook: 
-https://www.kaggle.com/allanbruno/helping-regular-people-price-listings-on-airbnb
+    https://www.kaggle.com/allanbruno/helping-regular-people-price-listings-on-airbnb
 
 Você vai perceber semelhanças entre a solução que vamos desenvolver aqui e a dele, mas também algumas diferenças significativas no processo de construção do projeto.
 
