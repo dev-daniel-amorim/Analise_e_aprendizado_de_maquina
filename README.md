@@ -7,9 +7,9 @@
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Desenvolvedor](#desenvolvedor)
 * [Objetivo](#Objetivo)
-* [Inspirações e créditos](#Inspirações-e-créditos)
 * [Machine learning](#Machine-learning)
 * [M7 passos do machine learning](#M7-passos-do-machine-learning)
+* [Inspirações e créditos](#Inspirações-e-créditos)
 
 
 # Descrição do projeto
@@ -40,19 +40,6 @@ Amante de tecnologias e desenvolvimento Python.<br>
 Construir um modelo de previsão de preço que permita uma pessoa comum que possui um imóvel possa saber quanto deve cobrar pela diária do seu imóvel.
 
 Ou ainda, para o locador comum, dado o imóvel que ele está buscando, ajudar a saber se aquele imóvel está com preço atrativo (abaixo da média para imóveis com as mesmas características) ou não.
-
-# Inspirações e créditos
-
-As bases de dados foram retiradas do site kaggle: https://www.kaggle.com/allanbruno/airbnb-rio-de-janeiro
-
-Este projeto foi feito com base no projeto americano de Allan Bruno do kaggle no Notebook: 
-https://www.kaggle.com/allanbruno/helping-regular-people-price-listings-on-airbnb
-
-Você vai perceber semelhanças entre a solução que vamos desenvolver aqui e a dele, mas também algumas diferenças significativas no processo de construção do projeto.
-
-- As bases de dados são os preços dos imóveis obtidos e suas respectivas características em cada mês.
-- Os preços são dados em reais (R$)
-- Temos bases de abril de 2018 a maio de 2020, com exceção de junho de 2018 que não possui base de dados
 
 # Machine learning
 
@@ -108,4 +95,16 @@ Inicialmente temos que entender que o computador aprende de 3 formas:
         - Com o modelo vencedor em mãos, fazer ajustes observando o R² e RSME que nos traga o melhor resultado.
         - Resumindo, tirou uma coluna e não impactou ou teve impacto mínimo no R² ou RSME, então exclui aquela coluna melhorando a análise qualitativa.
     
+# Inspirações e créditos
+
+As bases de dados foram retiradas do site kaggle: https://www.kaggle.com/allanbruno/airbnb-rio-de-janeiro
+
+Este projeto foi feito com base no projeto americano de Allan Bruno do kaggle no Notebook: 
+https://www.kaggle.com/allanbruno/helping-regular-people-price-listings-on-airbnb
+
+Você vai perceber semelhanças entre a solução que vamos desenvolver aqui e a dele, mas também algumas diferenças significativas no processo de construção do projeto.
+
+- As bases de dados são os preços dos imóveis obtidos e suas respectivas características em cada mês.
+- Os preços são dados em reais (R$)
+- Temos bases de abril de 2018 a maio de 2020, com exceção de junho de 2018 que não possui base de dados
 
