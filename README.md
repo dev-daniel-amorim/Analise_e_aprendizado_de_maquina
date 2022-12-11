@@ -8,7 +8,7 @@
 * [Desenvolvedor](#desenvolvedor)
 * [Objetivo](#Objetivo)
 * [Machine learning](#Machine-learning)
-* [M7 passos do machine learning](#M7-passos-do-machine-learning)
+* [7 passos do machine learning](#7-passos-do-machine-learning)
 * [Inspirações e créditos](#Inspirações-e-créditos)
 
 
