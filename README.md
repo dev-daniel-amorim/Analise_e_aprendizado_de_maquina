@@ -115,6 +115,8 @@ As bases de dados foram retiradas do site kaggle:
 Este projeto foi feito com base no projeto americano de Allan Bruno do kaggle no Notebook: 
 
     - https://www.kaggle.com/allanbruno/helping-regular-people-price-listings-on-airbnb
+    
+Todo projeto foi orientado pela Hashtag treinamentos, no qual eu tive a honra de participar. 
 
 Você vai perceber semelhanças entre a solução que vamos desenvolver aqui e a dele, mas também algumas diferenças significativas no processo de construção do projeto.
 
