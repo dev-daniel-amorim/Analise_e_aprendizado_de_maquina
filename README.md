@@ -76,7 +76,7 @@ Construir um modelo de previsão de preço que permita uma pessoa comum que poss
             
 - RSME (raiz do erro quadrática média): Nos diz o quanto está errando (menor melhor) acerta pouco mas erra próximo do valor, por exemplo, se erra 10% significa que está errando 10% do nosso valor.
             
-- 3º Escolher os modelos a usar/testar: Qual nosso problema? mas não se preocupe , não precisamos saber a estatística por trás, temos bibliotecas Python prontas pra resolver nosso problema, inicialmente temos que entender o modelo escolhido pra resolver nosso problema:
+- 3º Escolher os modelos a usar/testar: Qual nosso problema? mas não se preocupe, inicialmente não precisamos saber a estatística por trás, temos bibliotecas Python prontas pra resolver nosso problema, inicialmente temos que "entender o modelo escolhido" pra resolver nosso problema:
     
         - Linear regression: Tenta traçar uma reta mais próxima dos acertos.
         
