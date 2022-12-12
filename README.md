@@ -108,7 +108,7 @@ Construir um modelo de previsão de preço que permita uma pessoa comum que poss
         - Com o modelo vencedor em mãos, fazer ajustes observando o R² e RSME que nos traga o melhor resultado.
         - Resumindo, tirou uma coluna e não impactou ou teve impacto mínimo no R² ou RSME, então exclui aquela coluna melhorando a análise qualitativa.
     
-# App local host
+# App de previsão (local host)
 
 Por fim geramos um aplicative FRONTEND, onde os usuários podem acessar no navegador (em rede local ou disponibilizado
 na internet) e preencher as opções do imóvel (features) e obter o preço com base nas opções desejadas. Os valores sugeridos
