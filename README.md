@@ -43,13 +43,13 @@ Construir um modelo de previsão de preço que permita uma pessoa comum que poss
 
 # Machine learning
 
-Inicialmente temos que entender que o computador aprende de 3 formas:
+### Inicialmente temos que entender que o computador aprende de 3 formas:
 
-    - 1º aprendizado supervisionado: Quando passamos dados rotulados (um gabarito) onde temos as perguntas já com as respostas. Ex capcha de login. Esse modelo exige uma grande ***diversidade de informações. (principais métodos supervisionados: árvore de decisão, Naive bayes, regressão linear)
+- 1º aprendizado supervisionado: Quando passamos dados rotulados (um gabarito) onde temos as perguntas já com as respostas. Ex capcha de login. Esse modelo exige uma grande ***diversidade de informações. (principais métodos supervisionados: árvore de decisão, Naive bayes, regressão linear)
     
-    - 2º aprendizado não supervisionado: Passamos uma base sem respostas, por observação da máquina, por exemplo: Mulher compra mais maquiagem, homem compra mais ferramentas, um site vai oferecer o que mais aquele "grupo" de usúarios procura. O computador separa em grupos por características, por exemplo: ifood, algumas pessoas compram mais ou por cupom ou oferecendo frete grátis outras nem compram.
+- 2º aprendizado não supervisionado: Passamos uma base sem respostas, por observação da máquina, por exemplo: Mulher compra mais maquiagem, homem compra mais ferramentas, um site vai oferecer o que mais aquele "grupo" de usúarios procura. O computador separa em grupos por características, por exemplo: ifood, algumas pessoas compram mais ou por cupom ou oferecendo frete grátis outras nem compram.
     
-    - 3º aprendizado por reforço: Vamos ensinando ao computador por meio de reforço positivo ou negativo, exemplo, recomendação de vídeo do youtube, o youtube mostra vídeos, se eu não assistir é pq não gosta, se assistir é pq eu gosta, assim o youtube vai aprendendo por reforço o que o usuário mais gosta.
+- 3º aprendizado por reforço: Vamos ensinando ao computador por meio de reforço positivo ou negativo, exemplo, recomendação de vídeo do youtube, o youtube mostra vídeos, se eu não assistir é pq não gosta, se assistir é pq eu gosta, assim o youtube vai aprendendo por reforço o que o usuário mais gosta.
 
 # Métricas estatísticas utilizadas
 
@@ -65,26 +65,28 @@ Inicialmente temos que entender que o computador aprende de 3 formas:
 
 # 7 passos do machine learning
 
-    1º Definir se é classificação ou regressão 
+- 1º Definir se é classificação ou regressão 
         - Em resumo classificação: se é uma maçã ou abacaxi, ou regressão é o preço da maçã (específico).
         
-    2º Escolher modelo de métricas estatísticas para avaliar o modelo:
+- 2º Escolher modelo de métricas estatísticas para avaliar o modelo:
     
-    Existem diversas métricas, usaremos 2:
+    ### Existem diversas métricas, usaremos 2:
     
-        - Primeiro R² (Erro quadratico médio): Esta métrica nos diz um percentual de acerto de 0 a 100% (maior melhor) porém acerta muito mas erra longe do valor, um R2 com 92% significa que consegue explicar 92% do acerto.
+- Primeiro R² (Erro quadratico médio): Esta métrica nos diz um percentual de acerto de 0 a 100% (maior melhor) porém acerta muito mas erra longe do valor, um R2 com 92% significa que consegue explicar 92% do acerto.
             
-        - RSME (raiz do erro quadrática média): Nos diz o quanto está errando (menor melhor) acerta pouco mas erra próximo do valor, por exemplo, se erra 10% significa que está errando 10% do nosso valor.
+- RSME (raiz do erro quadrática média): Nos diz o quanto está errando (menor melhor) acerta pouco mas erra próximo do valor, por exemplo, se erra 10% significa que está errando 10% do nosso valor.
             
-    3º Escolher os modelos a usar/testar: Qual nosso problema? mas não se preocupe , não precisamos saber a estatística por trás, temos bibliotecas Python prontas pra resolver nosso problema, inicialmente temos que entender o modelo escolhido pra resolver nosso problema:
+- 3º Escolher os modelos a usar/testar: Qual nosso problema? mas não se preocupe , não precisamos saber a estatística por trás, temos bibliotecas Python prontas pra resolver nosso problema, inicialmente temos que entender o modelo escolhido pra resolver nosso problema:
     
         - Linear regression: Tenta traçar uma reta mais próxima dos acertos.
         
-        - Randon forest regressor: É uma árvore de decisão, procura a melhor pergunta para dividir ao máximo o número de respostas, por exemplo, adivinhar o nome de uma pessoa, Randon forest começa com a pergunta "é homem ou mulher" assim já elimina 50% dos erros.
+        - Randon forest regressor: É uma árvore de decisão, procura a melhor pergunta para dividir ao máximo o número 
+        de respostas, por exemplo, adivinhar o nome de uma pessoa, Randon forest começa com a pergunta "é homem ou mulher" 
+        assim já elimina 50% dos erros.
         
         - Extra trees: Parecido com radom forest porém gera perguntas aleatórias, buscando chegar mais rápido a pergunta.
         
-    4º treinar e testar os modelos: 
+- 4º treinar e testar os modelos: 
         - Consiste em separar a base de dados em teste e treino, por convenção dividimos em 75% treino e 25% teste (mas não é uma regra)
         - Treino são os dados passados para aprendizado
         - Teste são dados passados para conferir a acuracidade do aprendizado.
@@ -92,17 +94,17 @@ Inicialmente temos que entender que o computador aprende de 3 formas:
     OBS: cuidado com OVERFITTING: Passar todos os dados e o modelo ficar ruim para uma informação nova (vício), pois ele aprendeu o "que viu" mas não aprendeu a classificar coisas novas. Para evitar isso sempre devemos passar dados de teste e treino assim teremos uma porcentagem de acuricity, que é quem vai nos dizer o quão o modelo escolhido é acertivo.
     
     
-    5º Comparar os resultados entre varios modelos e escolher a melhor métrica (melhor acuricity):
+- 5º Comparar os resultados entre varios modelos e escolher a melhor métrica (melhor acuricity):
         - Como escolher o melhor modelo?
         - calculando o R² e o RSME para cada modelo.
         e se R² e RSME tiverem o mesmo acerto? Então vamos excolher o modelo que tiver menor tempo de processamento, tipo, R² levou uma hora pra processar e RSME levou 5 minutos? então vamos escolher o menor tempo.
         DICA: modelos mais simples sempre são as melhores métricas. Exemplo: um modelo que precisa de 2 features é tem um acerto de 80% é melhor que um modelo que acerta 90% com 30 features.
     
-    6º Avaliar mais a fundo o modelo escolhido:
+- 6º Avaliar mais a fundo o modelo escolhido:
         - Analisar as features mais importantes que estão impactando no acerto, removendo colunas que pouco impactuam na nossa análise, ou seja, tornando nosso processamento mais rápido com pouco impacto nos resultados.
     
     
-    7º Ajustar o melhor modelo:
+- 7º Ajustar o melhor modelo:
         - Com o modelo vencedor em mãos, fazer ajustes observando o R² e RSME que nos traga o melhor resultado.
         - Resumindo, tirou uma coluna e não impactou ou teve impacto mínimo no R² ou RSME, então exclui aquela coluna melhorando a análise qualitativa.
     
