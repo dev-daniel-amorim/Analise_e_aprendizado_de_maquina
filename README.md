@@ -11,6 +11,7 @@
 * [Métricas estatísticas utilizadas](#Métricas-estatísticas-utilizadas)
 * [Modelos de machine learning utilizados](#Modelos-de-machine-learning-utilizados)
 * [7 passos do machine learning](#7-passos-do-machine-learning)
+* [App de previsão (local host)](#App-de-previsão-(local-host))
 * [Inspirações e créditos](#Inspirações-e-créditos)
 
 
