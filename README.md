@@ -108,6 +108,16 @@ Construir um modelo de previsão de preço que permita uma pessoa comum que poss
         - Com o modelo vencedor em mãos, fazer ajustes observando o R² e RSME que nos traga o melhor resultado.
         - Resumindo, tirou uma coluna e não impactou ou teve impacto mínimo no R² ou RSME, então exclui aquela coluna melhorando a análise qualitativa.
     
+# App local host
+
+Por fim geramos um aplicative FRONTEND, onde os usuários podem acessar no navegador (em rede local ou disponibilizado
+na internet) e preencher as opções do imóvel (features) e obter o preço com base nas opções desejadas. Os valores sugeridos
+são com base no aprendizado de máquina para época do projeto, tendo em vista que, para se manter um projeto atualizado é extremamente
+importante o administrador do projeto está sempre atualizando as bases de dados e para melhoria, sempre testando novas features.
+
+https://user-images.githubusercontent.com/115194365/207130687-a92a628e-03ae-4b91-add5-50a664a38565.mp4
+
+
 # Inspirações e créditos
 
 As bases de dados foram retiradas do site kaggle: 
