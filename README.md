@@ -1,5 +1,5 @@
-# Análise e aprendizado de máquina
- Projeto de análise a aprendizado de máquina usando data science e machine learning com Python.<br>
+# Data Science - Machine Learning
+ Projeto de Data Science com Machine Learning (aprendizado de máquina).<br>
  Todo o código fonte está bem comentado com fins didáticos, facilitando o estudo e interpretação dos dados.
 
 
