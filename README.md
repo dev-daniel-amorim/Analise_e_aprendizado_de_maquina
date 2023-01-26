@@ -139,3 +139,8 @@ com valores descritos em reais para localidade (latitude e longitude) no Rio de 
 - Os preços são dados em reais (R$)
 - Temos bases de abril de 2018 a maio de 2020, com exceção de junho de 2018 que não possui base de dados
 
+<br>
+<br>
+<hr>
+
+[<< Voltar para página inicial](https://github.com/dev-daniel-amorim)
